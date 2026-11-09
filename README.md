@@ -25,8 +25,7 @@ Este projeto provisiona uma infraestrutura AWS completa utilizando Terraform com
 │   └── production/   # Configuração para ambiente de produção (AWS real)
 ├── .github/
 │   └── workflows/    # Pipelines de CI/CD com GitHub Actions
-├── diagrams/         # Diagrama da infraestrutura
-└── notes/            # Anotações locais (ignoradas pelo Git)
+└── diagrams/         # Diagrama da infraestrutura
 ```
 
 ## Pré-requisitos
