@@ -1,0 +1,27 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfvars
+!example.tfvars
+crash.log
+override.tf
+override.tf.json
+
+# Terragrunt
+.terragrunt-cache/
+
+# LocalStack
+.localstack/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Anotações locais (não vão para o GitHub)
+notes/
